@@ -1,0 +1,15 @@
+{
+    "cpv_division":5, 
+    "settore":2, 
+    "Codice NUTS3 2024":10, 
+    "Dizione_zona":5, 
+    "criterio_aggiudicazione":5, 
+    "numero_offerte_ammesse":5, 
+    "numero_offerte_escluse":5,
+    "ribasso_aggiudicazione":5, 
+    "asta_elettronica":5,
+    "tipo_scelta_contraente":5,
+    "modalita_realizzazione":5,
+    "oggetto_principale_contratto":5,
+    "accordo_quadro":5
+}

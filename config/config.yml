@@ -1,0 +1,33 @@
+# config.yml
+
+CSV_FILE_SEP: ;
+OD_FILE_TYPE: csv
+
+# ANAC
+OD_ANAC_DIR: open_data_anac
+TENDER_MAIN_TABLE: bando_cig_2016-2023.csv      # INPUT the main dataset                
+
+# ISTAT
+OD_ISTAT_DIR: open_data_istat
+OD_ISTAT_NUTS_FILE: istat_nuts.csv
+OD_ISTAT_DIM_FILE: istat_dimensions.csv
+# Fix Column names                                    # INPUT columns to be renamed
+OD_ISTAT_COLUMNS_FIX:
+  "Codice Istat del Comune (alfanumerico)": codice_istat_comune
+  "Codice Comune formato alfanumerico": codice_istat_comune
+
+# BDAP
+OD_BDAP_DIR: open_data_bdap
+OD_BDAP_FILE: bdap_enti.csv
+
+# CONFIGURATIONS
+CONF_COLS_EXCL_FILE: conf_cols_read_excluded.json     # INPUT file with columns to be excluded from reading of each CSV file (dataset)
+CONF_COLS_TYPE_FILE: conf_cols_type.json              # INPUT file with columns types for each CSV file (dataset)
+CONF_COLS_STATS_FILE: conf_cols_stats_included.json   # INPUT file with columns to be included in stats for each CSV file (dataset)
+
+# STATS
+OD_STATS_DIR: stats                                   # OUTPUT directory
+STATS_CONF_FILE: conf_cols_stats.json
+
+# PLOTS
+PLOTS_DIR: plots
